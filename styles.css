@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+/* TEXTS */
+.text {
+    height: 100vh;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("img/image.jfif");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.9; /*opacidade das divs text*/
+}
+
+.text h1 {
+    color: #fff;
+    background-color: #444;
+    text-align: center; /*alinha o texto dentro do text*/
+    padding: 0.5rem 0.8rem;
+    border-radius: 0.5rem;
+}
+
+.second-text {
+    background-image: url("img/image2.avif");
+    background-position: center; /*alinha o centro da imagem sem exibir todo o contexto*/
+    background-size: cover; /*tenta exibir todo o contexto*/
+    background-attachment: fixed; /*deixa a imagem fixa no fundo*/
+}
+
+.third-text {
+    background-image: url("img/image3.jfif");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* MINI-TEXTS */
+.mini-text {
+    height: 50vh;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mini-text h1 {
+    color: #fff;
+    text-align: center; /*alinha o texto dentro do text*/
+    padding: 0.5rem 0.8rem;
+    font-weight: 300;
+    letter-spacing: 0.2rem;
+}
+
+/* SECTIONS */
+.section {
+    text-align: center;
+    color: #fff;
+    background-color: #445;
+    padding: 3rem 2rem;
+}
+
+.section h2, .section p {
+    margin: 0.5rem auto;
+}
